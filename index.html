@@ -102,13 +102,184 @@
     </td>
     <td width="65%" valign="top" align="justify">
     <p>
-      I am a master student in Harbin Institute of Technology (Shenzhen), exploring the field of Generation-based Natural Language Processing. Prior to that, I studied Intelligence Science and Technology in Sun Yat-Sen University as an undergraduate. My current research insterest is grounding natural language in the physical world, with special focus on Generative Multimodal Models and Embodied Artificial Intelligence.
+      I am a PhD student at The Hong Kong University of Science and Technology (Guangzhou), exploring the field of robotics and artificial intelligence. Prior to that, I studied Intelligence Science and Technology at Sun Yat-sen University as an undergraduate, and generation-based Natural Language Processing at Harbin Institute of Technology (Shenzhen) as a master’s student. My current research interest is unifying world modeling and policy learning.
     <p>
-      I wish to create an end-to-end generalist agent.
+      I wish to create an end-to-end generalist agent in the physical world.
     </p>
     </p>
     </td>
   </tr>
+</table>
+
+<hr>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr><td><sectionheading>&nbsp;&nbsp;Publications</sectionheading></td></tr>
+</table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+
+  <tr>
+    <td width="30%" valign="top" align="center">
+    <img src="images/3D-Foresight.jpg" alt="sym" width="85%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
+    </a></td>
+    <td width="60%" valign="top">
+      <p>
+      <heading><b>3D Dynamics-Aware Manipulation: Endowing Manipulation Policies with 3D Foresight</b></heading><br>
+      <b>Yuxin He</b>, Ruihao Zhang, Xianzu Wu, Zhiyuan Zhang, Cheng Ding, Qiang Nie.<br>
+      <em>ICRA (2026)</em>
+      </p>
+
+      <div class="paper" id="3D-Foresight">
+      <a href="https://arxiv.org/pdf/2502.10028">pdf</a> |
+      <a href="javascript:toggleblock('3D_foresight_abs')">abstract</a> |
+      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
+      <a href="https://github.com/Stardust-hyx/3D-Foresight">code</a>
+      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
+
+      <p align="justify"> <i id="3D_foresight_abs">The incorporation of world modeling into manipulation policy learning has pushed the boundary of manipulation performance. However, existing efforts simply model the 2D visual dynamics, which is insufficient for robust manipulation when target tasks involve prominent depth-wise movement. To address this, we present a 3D dynamics-aware manipulation framework that seamlessly integrates 3D world modeling and policy learning. Three self-supervised learning tasks (current depth estimation, future RGB-D prediction, 3D flow prediction) are introduced within our framework, which complement each other and endow the policy model with 3D foresight. Extensive experiments on simulation and the real world show that 3D foresight can greatly boost the performance of manipulation policies without sacrificing inference speed. Code is available at https://github.com/Stardust-hyx/3D-Foresight.</i></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="30%" valign="top" align="center">
+    <img src="images/EFM.jpg" alt="sym" width="85%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
+    </a></td>
+    <td width="60%" valign="top">
+      <p>
+      <heading><b>Towards Exploratory and Focused Manipulation with Bimanual Active Perception: A New Problem, Benchmark and Strategy</b></heading><br>
+      <b>Yuxin He</b>, Ruihao Zhang, Tianao Shen, Cheng Liu, Qiang Nie.<br>
+      <em>ICRA (2026)</em>
+      </p>
+
+      <div class="paper" id="EFM">
+      <a href="https://arxiv.org/pdf/2502.10028">pdf</a> |
+      <a href="javascript:toggleblock('efm_abs')">abstract</a> |
+      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
+      <a href="https://efmanipulation.github.io">webpage</a>
+      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
+
+      <p align="justify"> <i id="efm_abs">Recently, active vision has reemerged as an important concept for manipulation, since visual occlusion occurs more frequently when main cameras are mounted on the robot heads. We reflect on the visual occlusion issue and identify its essence as the absence of information useful for task completion. Inspired by this, we come up with the more fundamental problem of Exploratory and Focused Manipulation (EFM). The proposed problem is about actively collecting information to complete challenging manipulation tasks that require exploration or focus. As an initial attempt to address this problem, we establish the EFM-10 benchmark that consists of 4 categories of tasks that align with our definition (10 tasks in total). We further come up with a Bimanual Active Perception (BAP) strategy, which leverages one arm to provide active vision and another arm to provide force sensing while manipulating. Based on this idea, we collect a dataset named BAPData for the tasks in EFM-10. With the dataset, we successfully verify the effectiveness of the BAP strategy in an imitation learning manner. We hope that the EFM-10 benchmark along with the BAP strategy can become a cornerstone that facilitates future research towards this direction. Project website: EFManipulation.github.io.</i></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="30%" valign="top" align="center">
+    <img src="images/text2dt.png" alt="sym" width="85%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
+    </a></td>
+    <td width="60%" valign="top">
+      <p>
+      <heading><b>Generative Models for Automatic Medical Decision Rule Extraction from Text</b></heading><br>
+      <b>Yuxin He</b>, Buzhou Tang, Xiaoling Wang.<br>
+      <em>EMNLP (2024)</em>
+      </p>
+
+      <div class="paper" id="text2dt">
+      <a href="https://aclanthology.org/2024.emnlp-main.399.pdf">pdf</a> |
+      <a href="javascript:toggleblock('text2dt_abs')">abstract</a> |
+      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
+      <a href="https://github.com/Stardust-hyx/Generative_Text2DT">code</a>
+      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
+
+      <p align="justify"> <i id="text2dt_abs">Medical decision rules play a key role in many clinical decision support systems (CDSS). However, these rules are conventionally constructed by medical experts, which is expensive and hard to scale up. In this study, we explore the automatic extraction of medical decision rules from text, leading to a solution to construct large-scale medical decision rules. We adopt a formulation of medical decision rules as binary trees consisting of condition/decision nodes. Such trees are referred to as medical decision trees and we introduce several generative models to extract them from text. The proposed models inherit the merit of two categories of successful natural language generation frameworks, i.e., sequence-to-sequence generation and autoregressive generation. To unleash the potential of pretrained language models, we design three styles of linearization (natural language, augmented natural language and JSON code), acting as the target sequence for our models. Our final system achieves 67% tree accuracy on a comprehensive Chinese benchmark, outperforming state-of-the-art baseline by 12%. The result demonstrates the effectiveness of generative models on explicitly modeling structural decision-making roadmaps, and shows great potential to boost the development of CDSS and explainable AI. Our code is avilable at https://github.com/Stardust-hyx/Generative_Text2DT.</i></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="30%" valign="top" align="center">
+    <img src="images/TabEAE.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://aclanthology.org/2023.acl-long.701" id="tabEAE">
+      <heading><b>Revisiting Event Argument Extraction: Can EAE Models Learn Better When Being Aware of Event Co-occurrences?</b></heading></a><br>
+      <b>Yuxin He</b>, Buzhou Tang, Xiaoling Wang.<br>
+      <em>ACL 2023</em>
+      </p>
+
+      <div class="paper" id="tabEAE">
+      <a href="https://aclanthology.org/2023.acl-long.701.pdf">pdf</a> |
+      <a href="javascript:toggleblock('tabEAE_abs')">abstract</a> |
+      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
+      <a href="https://github.com/Stardust-hyx/TabEAE">code</a>
+      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
+
+      <p align="justify"> <i id="tabEAE_abs">Event co-occurrences have been proved effective for event extraction (EE) in previous studies, but have not been considered for event argument extraction (EAE) recently. In this paper, we try to fill this gap between EE research and EAE research, by highlighting the question that “Can EAE models learn better when being aware of event co-occurrences?”. To answer this question, we reformulate EAE as a problem of table generation and extend a SOTA prompt-based EAE model into a non-autoregressive generation framework, called TabEAE, which is able to extract the arguments of multiple events in parallel. Under this framework, we experiment with 3 different training-inference schemes on 4 datasets (ACE05, RAMS, WikiEvents and MLEE) and discover that via training the model to extract all events in parallel, it can better distinguish the semantic boundary of each event and its ability to extract single event gets substantially improved. Experimental results show that our method achieves new state-of-the-art performance on the 4 datasets. Our code is avilable at https://github.com/Stardust-hyx/TabEAE.</i></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="30%" valign="top" align="center">
+    <img src="images/BiSPN.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://aclanthology.org/2023.findings-emnlp.136" id="bispn">
+      <heading><b>BiSPN: Generating Entity Set and Relation Set Coherently in One Pass</b></heading></a><br>
+      <b>Yuxin He</b>, Buzhou Tang.<br>
+      <em>Findings of EMNLP 2023</em>
+      </p>
+
+      <div class="paper" id="bispn">
+      <a href="https://aclanthology.org/2023.findings-emnlp.136.pdf">pdf</a> |
+      <a href="javascript:toggleblock('bispn_abs')">abstract</a> |
+      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
+      <a href="https://github.com/Stardust-hyx/BiSPN">code</a>
+      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
+
+      <p align="justify"> <i id="bispn_abs">By modeling the interaction among instances and avoiding error propagation, Set Prediction Networks (SPNs) achieve state-of-the-art performance on the tasks of named entity recognition and relation triple extraction respectively. However, how to jointly extract entities and relation triples via SPNs remains an unexplored problem, where the main challenge is the maintenance of coherence between the predicted entity/relation sets during one-pass generation. In this work, we present Bipartite Set Prediction Network (BiSPN), a novel joint entity-relation extraction model that can efficiently generate entity set and relation set in parallel. To overcome the challenge of coherence, BiSPN is equipped with a novel bipartite consistency loss as well as an entity-relation linking loss during training. Experiments on three biomedical/clinical datasets and a general-domain dataset show that BiSPN achieves new state of the art in knowledge-intensive scene and performs competitively in general-domain, while being more efficient than two-stage joint extraction methods.</i></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="30%" valign="top" align="center">
+    <img src="images/ProbExpan.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://dl.acm.org/doi/10.1145/3477495.3531954" id="probexpan">
+      <heading><b>Contrastive Learning with Hard Negative Entities for Entity Set Expansion</b></heading></a><br>
+      Yinghui Li*, <b>Yuxin He*</b>, Yangning Li*, Tianyu Yu, Ying Shen, Hai-Tao Zheng.<br>
+      <em>SIGIR 2022</em>
+      </p>
+
+      <div class="paper" id="probexpan">
+      <a href="https://dl.acm.org/doi/pdf/10.1145/3477495.3531954">pdf</a> |
+      <a href="javascript:toggleblock('probexpan_abs')">abstract</a> |
+      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
+      <a href="https://github.com/geekjuruo/ProbExpan">code</a>
+      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
+
+      <p align="justify"> <i id="probexpan_abs">Entity Set Expansion (ESE) is a promising task which aims to expand entities of the target semantic class described by a small seed entity set. Various NLP and IR applications will benefit from ESE due to its ability to discover knowledge. Although previous ESE methods have achieved great progress, most of them still lack the ability to handle hard negative entities (i.e., entities that are difficult to distinguish from the target entities), since two entities may or may not belong to the same semantic class based on different granularity levels we analyze on. To address this challenge, we devise an entity-level masked language model with contrastive learning to refine the representation of entities. In addition, we propose the ProbExpan, a novel probabilistic ESE framework utilizing the entity representation obtained by the aforementioned language model to expand entities. Extensive experiments and detailed analyses on three datasets show that our method outperforms previous state-of-the-art methods.</i></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="30%" valign="top" align="center">
+    <img src="images/SetGNER.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://aclanthology.org/2022.emnlp-main.200" id="setgner">
+      <heading><b>SetGNER: General Named Entity Recognition as Entity Set Generation</b></heading></a><br>
+      <b>Yuxin He</b>, Buzhou Tang.<br>
+      <em>EMNLP 2022</em>
+      </p>
+
+      <div class="paper" id="setgner">
+      <a href="https://aclanthology.org/2022.emnlp-main.200.pdf">pdf</a> |
+      <a href="javascript:toggleblock('setgner_abs')">abstract</a> |
+      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
+      <a href="https://github.com/Stardust-hyx/SetGNER">code</a>
+      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
+
+      <p align="justify"> <i id="setgner_abs">Recently, joint recognition of flat, nested and discontinuous entities has received increasing attention. Motivated by the observation that the target output of NER is essentially a set of sequences, we propose a novel entity set generation framework for general NER scenes in this paper. Different from sequence-to-sequence NER methods, our method does not force the entities to be generated in a predefined order and can get rid of the problem of error propagation and inefficient decoding. Distinguished from the set-prediction NER framework, our method treats each entity as a sequence and is capable of recognizing discontinuous mentions. Given an input sentence, the model first encodes the sentence in word-level and detects potential entity mentions based on the encoder’s output, then reconstructs entity mentions from the detected entity heads in parallel. To let the encoder of our model capture better right-to-left semantic structure, we also propose an auxiliary Inverse Generation Training task. Extensive experiments show that our model (w/o. Inverse Generation Training) outperforms state-of-the-art generative NER models by a large margin on two discontinuous NER datasets, two nested NER datasets and one flat NER dataset. Besides, the auxiliary Inverse Generation Training task is found to further improve the model’s performance on the five datasets.</i></p>
+      </div>
+    </td>
+  </tr>
+
 </table>
 
 <hr>
@@ -153,136 +324,6 @@
       </p>
     </td>
   </tr>
-</table>
-
-<hr>
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-  <tr><td><sectionheading>&nbsp;&nbsp;Publications</sectionheading></td></tr>
-</table>
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
-
-  <tr>
-    <td width="30%" valign="top" align="center">
-    <img src="images/text2dt.png" alt="sym" width="85%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
-    </a></td>
-    <td width="60%" valign="top">
-      <p>
-      <heading><b>Generative Models for Automatic Medical Decision Rule Extraction from Text</b></heading><br>
-      <b>Yuxin He</b>, Buzhou Tang, Xiaoling Wang.<br>
-      <em>EMNLP (2024)</em>
-      </p>
-
-      <div class="paper" id="text2dt">
-      <!-- <a href="https://cyanzhao42.github.io/LearnInverseProblem">webpage</a> | -->
-      <a href="https://aclanthology.org/2024.emnlp-main.399.pdf">pdf</a> |
-      <a href="javascript:toggleblock('text2dt_abs')">abstract</a> |
-      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
-      <a href="https://github.com/Stardust-hyx/Generative_Text2DT">code</a>
-      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
-
-      <p align="justify"> <i id="text2dt_abs">Medical decision rules play a key role in many clinical decision support systems (CDSS). However, these rules are conventionally constructed by medical experts, which is expensive and hard to scale up. In this study, we explore the automatic extraction of medical decision rules from text, leading to a solution to construct large-scale medical decision rules. We adopt a formulation of medical decision rules as binary trees consisting of condition/decision nodes. Such trees are referred to as medical decision trees and we introduce several generative models to extract them from text. The proposed models inherit the merit of two categories of successful natural language generation frameworks, i.e., sequence-to-sequence generation and autoregressive generation. To unleash the potential of pretrained language models, we design three styles of linearization (natural language, augmented natural language and JSON code), acting as the target sequence for our models. Our final system achieves 67% tree accuracy on a comprehensive Chinese benchmark, outperforming state-of-the-art baseline by 12%. The result demonstrates the effectiveness of generative models on explicitly modeling structural decision-making roadmaps, and shows great potential to boost the development of CDSS and explainable AI. Our code will be open-source upon acceptance.</i></p>
-      </div>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="30%" valign="top" align="center">
-    <img src="images/TabEAE.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
-    </a></td>
-    <td width="60%" valign="top">
-      <p><a href="https://aclanthology.org/2023.acl-long.701" id="tabEAE">
-      <heading><b>Revisiting Event Argument Extraction: Can EAE Models Learn Better When Being Aware of Event Co-occurrences?</b></heading></a><br>
-      <b>Yuxin He</b>, Buzhou Tang, Xiaoling Wang.<br>
-      <em>ACL 2023</em>
-      </p>
-
-      <div class="paper" id="tabEAE">
-      <!-- <a href="https://cyanzhao42.github.io/LearnInverseProblem">webpage</a> | -->
-      <a href="https://aclanthology.org/2023.acl-long.701.pdf">pdf</a> |
-      <a href="javascript:toggleblock('tabEAE_abs')">abstract</a> |
-      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
-      <a href="https://github.com/Stardust-hyx/TabEAE">code</a>
-      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
-
-      <p align="justify"> <i id="tabEAE_abs">Event co-occurrences have been proved effective for event extraction (EE) in previous studies, but have not been considered for event argument extraction (EAE) recently. In this paper, we try to fill this gap between EE research and EAE research, by highlighting the question that “Can EAE models learn better when being aware of event co-occurrences?”. To answer this question, we reformulate EAE as a problem of table generation and extend a SOTA prompt-based EAE model into a non-autoregressive generation framework, called TabEAE, which is able to extract the arguments of multiple events in parallel. Under this framework, we experiment with 3 different training-inference schemes on 4 datasets (ACE05, RAMS, WikiEvents and MLEE) and discover that via training the model to extract all events in parallel, it can better distinguish the semantic boundary of each event and its ability to extract single event gets substantially improved. Experimental results show that our method achieves new state-of-the-art performance on the 4 datasets. Our code is avilable at https://github.com/Stardust-hyx/TabEAE.</i></p>
-      </div>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="30%" valign="top" align="center">
-    <img src="images/BiSPN.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
-    </a></td>
-    <td width="60%" valign="top">
-      <p><a href="https://aclanthology.org/2023.findings-emnlp.136" id="bispn">
-      <heading><b>BiSPN: Generating Entity Set and Relation Set Coherently in One Pass</b></heading></a><br>
-      <b>Yuxin He</b>, Buzhou Tang.<br>
-      <em>Findings of EMNLP 2023</em>
-      </p>
-
-      <div class="paper" id="bispn">
-      <!-- <a href="https://cyanzhao42.github.io/LearnInverseProblem">webpage</a> | -->
-      <a href="https://aclanthology.org/2023.findings-emnlp.136.pdf">pdf</a> |
-      <a href="javascript:toggleblock('bispn_abs')">abstract</a> |
-      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
-      <a href="https://github.com/Stardust-hyx/BiSPN">code</a>
-      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
-
-      <p align="justify"> <i id="bispn_abs">By modeling the interaction among instances and avoiding error propagation, Set Prediction Networks (SPNs) achieve state-of-the-art performance on the tasks of named entity recognition and relation triple extraction respectively. However, how to jointly extract entities and relation triples via SPNs remains an unexplored problem, where the main challenge is the maintenance of coherence between the predicted entity/relation sets during one-pass generation. In this work, we present Bipartite Set Prediction Network (BiSPN), a novel joint entity-relation extraction model that can efficiently generate entity set and relation set in parallel. To overcome the challenge of coherence, BiSPN is equipped with a novel bipartite consistency loss as well as an entity-relation linking loss during training. Experiments on three biomedical/clinical datasets and a general-domain dataset show that BiSPN achieves new state of the art in knowledge-intensive scene and performs competitively in general-domain, while being more efficient than two-stage joint extraction methods.</i></p>
-      </div>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="30%" valign="top" align="center">
-    <img src="images/ProbExpan.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
-    </a></td>
-    <td width="60%" valign="top">
-      <p><a href="https://dl.acm.org/doi/10.1145/3477495.3531954" id="probexpan">
-      <heading><b>Contrastive Learning with Hard Negative Entities for Entity Set Expansion</b></heading></a><br>
-      Yinghui Li*, <b>Yuxin He*</b>, Yangning Li*, Tianyu Yu, Ying Shen, Hai-Tao Zheng.<br>
-      <em>SIGIR 2022</em>
-      </p>
-
-      <div class="paper" id="probexpan">
-      <!-- <a href="https://cyanzhao42.github.io/LearnInverseProblem">webpage</a> | -->
-      <a href="https://dl.acm.org/doi/pdf/10.1145/3477495.3531954">pdf</a> |
-      <a href="javascript:toggleblock('probexpan_abs')">abstract</a> |
-      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
-      <a href="https://github.com/geekjuruo/ProbExpan">code</a>
-      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
-
-      <p align="justify"> <i id="probexpan_abs">Entity Set Expansion (ESE) is a promising task which aims to expand entities of the target semantic class described by a small seed entity set. Various NLP and IR applications will benefit from ESE due to its ability to discover knowledge. Although previous ESE methods have achieved great progress, most of them still lack the ability to handle hard negative entities (i.e., entities that are difficult to distinguish from the target entities), since two entities may or may not belong to the same semantic class based on different granularity levels we analyze on. To address this challenge, we devise an entity-level masked language model with contrastive learning to refine the representation of entities. In addition, we propose the ProbExpan, a novel probabilistic ESE framework utilizing the entity representation obtained by the aforementioned language model to expand entities. Extensive experiments and detailed analyses on three datasets show that our method outperforms previous state-of-the-art methods.</i></p>
-      </div>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="30%" valign="top" align="center">
-    <img src="images/SetGNER.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:0px;">
-    </a></td>
-    <td width="60%" valign="top">
-      <p><a href="https://aclanthology.org/2022.emnlp-main.200" id="setgner">
-      <heading><b>SetGNER: General Named Entity Recognition as Entity Set Generation</b></heading></a><br>
-      <b>Yuxin He</b>, Buzhou Tang.<br>
-      <em>EMNLP 2022</em>
-      </p>
-
-      <div class="paper" id="setgner">
-      <!-- <a href="https://cyanzhao42.github.io/LearnInverseProblem">webpage</a> | -->
-      <a href="https://aclanthology.org/2022.emnlp-main.200.pdf">pdf</a> |
-      <a href="javascript:toggleblock('setgner_abs')">abstract</a> |
-      <!-- <a shape="rect" href="javascript:togglebib('GPR')" class="togglebib">bibtex</a> | -->
-      <a href="https://github.com/Stardust-hyx/SetGNER">code</a>
-      <!-- <a href="https://youtu.be/ov0jxa4xHGU">video</a> -->
-
-      <p align="justify"> <i id="setgner_abs">Recently, joint recognition of flat, nested and discontinuous entities has received increasing attention. Motivated by the observation that the target output of NER is essentially a set of sequences, we propose a novel entity set generation framework for general NER scenes in this paper. Different from sequence-to-sequence NER methods, our method does not force the entities to be generated in a predefined order and can get rid of the problem of error propagation and inefficient decoding. Distinguished from the set-prediction NER framework, our method treats each entity as a sequence and is capable of recognizing discontinuous mentions. Given an input sentence, the model first encodes the sentence in word-level and detects potential entity mentions based on the encoder’s output, then reconstructs entity mentions from the detected entity heads in parallel. To let the encoder of our model capture better right-to-left semantic structure, we also propose an auxiliary Inverse Generation Training task. Extensive experiments show that our model (w/o. Inverse Generation Training) outperforms state-of-the-art generative NER models by a large margin on two discontinuous NER datasets, two nested NER datasets and one flat NER dataset. Besides, the auxiliary Inverse Generation Training task is found to further improve the model’s performance on the five datasets.</i></p>
-      </div>
-    </td>
-  </tr>
-
 </table>
 
 <hr>
